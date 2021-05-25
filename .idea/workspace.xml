@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="created dev branch">
-      <change afterPath="$PROJECT_DIR$/src/VirtualInternshipProject/  CityDirectory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VirtualInternshipProject/City.java" afterDir="false" />
+    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="feat: mod1 complete">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/CityesMAnipulationns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VirtualInternshipProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VirtualInternshipProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualInternshipProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualInternshipProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VirtualInternshipProject/VirtualInternshipProject/  CityDirectory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VirtualInternshipProject/  CityDirectory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/  CityDirectory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VirtualInternshipProject/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VirtualInternshipProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,10 +105,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -138,7 +155,7 @@
       <workItem from="1621923638505" duration="3023000" />
       <workItem from="1621928610416" duration="70000" />
       <workItem from="1621929423117" duration="324000" />
-      <workItem from="1621930178067" duration="1771000" />
+      <workItem from="1621930178067" duration="11268000" />
     </task>
     <task id="LOCAL-00001" summary="new proj create">
       <created>1621924001544</created>
@@ -154,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621924638660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: mod1 complete">
+      <created>1621932196667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621932196667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new proj create" />
     <MESSAGE value="created dev branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="created dev branch" />
+    <MESSAGE value="feat: mod1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mod1 complete" />
   </component>
 </project>

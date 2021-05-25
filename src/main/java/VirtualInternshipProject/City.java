@@ -1,15 +1,16 @@
 package VirtualInternshipProject;
 
+import java.util.Comparator;
 import java.util.Date;
 
-public class City {
+public class City{
     private String name;
     private String regeion;
     private String district;
     private int population;
     private int foundation;
 
-    public City (String name, String region, String district, int population,int foundation){
+    public City (String name, String region, String district, int population, int foundation){
         this.name = name;
         this.regeion = region;
         this.district = district;
@@ -57,8 +58,11 @@ public class City {
         this.foundation = foundation;
     }
     @Override
-    public String toString(){
-        return "City{name='"+ this.name +"', regeion='"+ this.regeion +"', district='"+ this.district +"', population= "+ this.population +", foundation='"+ this.foundation +"'}";
-    }
-
+        public String toString() {
+            return "City{name='" + this.name +
+                    "', regeion='" + this.regeion +
+                    "', district='" + this.district +
+                    "', population= " + this.population +
+                    ", foundation='" + this.foundation + "'}";
+        }
 }
