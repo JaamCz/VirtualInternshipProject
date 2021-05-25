@@ -13,7 +13,7 @@ public class Main {
         CityesMAnipulationns.ReadString("src/main/resources/  CityDirectory.txt");
         CityesMAnipulationns.SortListByNames();
         CityesMAnipulationns.SortListByNamesAndDist();
-
+        CityesMAnipulationns.GetIndexOfCityWithBiggestPopulation();
     }
 
 
