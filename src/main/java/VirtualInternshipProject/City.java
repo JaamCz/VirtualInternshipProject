@@ -2,6 +2,7 @@ package VirtualInternshipProject;
 
 import java.util.Comparator;
 import java.util.Date;
+import java.util.Objects;
 
 public class City{
     private String name;
@@ -65,4 +66,17 @@ public class City{
                     "', population= " + this.population +
                     ", foundation='" + this.foundation + "'}";
         }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        City city = (City) o;
+        return population == city.population && foundation == city.foundation && Objects.equals(name, city.name) && Objects.equals(regeion, city.regeion) && Objects.equals(district, city.district);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, regeion, district, population, foundation);
+    }
 }

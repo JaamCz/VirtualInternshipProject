@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="feat: mod2 complete">
+    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="feat: mod3 complete">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/CityesMAnipulationns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/CityesMAnipulationns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/CityesMAnipulationns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/ManipulationsWithCityList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/CityesMAnipulationns.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/CityesMAnipulationns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/CityesMAnipulationns.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +152,7 @@
       <workItem from="1621923638505" duration="3023000" />
       <workItem from="1621928610416" duration="70000" />
       <workItem from="1621929423117" duration="324000" />
-      <workItem from="1621930178067" duration="14146000" />
+      <workItem from="1621930178067" duration="16753000" />
     </task>
     <task id="LOCAL-00001" summary="new proj create">
       <created>1621924001544</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621947092199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: mod3 complete">
+      <created>1621951431269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621951431269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +212,7 @@
     <MESSAGE value="created dev branch" />
     <MESSAGE value="feat: mod1 complete" />
     <MESSAGE value="feat: mod2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mod2 complete" />
+    <MESSAGE value="feat: mod3 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mod3 complete" />
   </component>
 </project>
