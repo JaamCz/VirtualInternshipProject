@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="feat: mod3 complete">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="b79a6d11-7599-4239-aed3-e8ad00229edf" name="Default Changelist" comment="feat: mod4 complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/DB/CitiesDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CityDerectoryTEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VirtualInternshipProject/Services/ManipulationsWithCityListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/CityesMAnipulationns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/ManipulationsWithCityList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualInternshipProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualInternshipProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Essence/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/CityesMAnipulationns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/ManipulationsWithCityList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VirtualInternshipProject/Services/ManipulationsWithCityList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/  CityDirectory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CityDirectory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/  CityDirectory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/City.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VirtualInternshipProject/ManipulationsWithCityList.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,6 +45,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1t15DUjCvjdGk19CLzouJXmlbzi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,15 +120,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="http.certificates" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="VirtualInternshipProject.Services" />
+      <recent name="VirtualInternshipProject" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ManipulationsWithCityListTest.readString">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="VirtualInternshipProject.Main" />
       <module name="VirtualInternshipProject" />
@@ -135,8 +162,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManipulationsWithCityListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VirtualInternshipProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VirtualInternshipProject.Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VirtualInternshipProject.Services" />
+      <option name="MAIN_CLASS_NAME" value="VirtualInternshipProject.Services.ManipulationsWithCityListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManipulationsWithCityListTest.readString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VirtualInternshipProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VirtualInternshipProject.Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VirtualInternshipProject.Services" />
+      <option name="MAIN_CLASS_NAME" value="VirtualInternshipProject.Services.ManipulationsWithCityListTest" />
+      <option name="METHOD_NAME" value="readString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ManipulationsWithCityListTest.readString" />
+        <item itemvalue="JUnit.ManipulationsWithCityListTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -152,7 +212,9 @@
       <workItem from="1621923638505" duration="3023000" />
       <workItem from="1621928610416" duration="70000" />
       <workItem from="1621929423117" duration="324000" />
-      <workItem from="1621930178067" duration="16753000" />
+      <workItem from="1621930178067" duration="17000000" />
+      <workItem from="1622009129355" duration="3150000" />
+      <workItem from="1622012346520" duration="21960000" />
     </task>
     <task id="LOCAL-00001" summary="new proj create">
       <created>1621924001544</created>
@@ -189,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621951431269</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: mod4 complete">
+      <created>1621954352471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621954352471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +282,7 @@
     <MESSAGE value="feat: mod1 complete" />
     <MESSAGE value="feat: mod2 complete" />
     <MESSAGE value="feat: mod3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mod3 complete" />
+    <MESSAGE value="feat: mod4 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mod4 complete" />
   </component>
 </project>

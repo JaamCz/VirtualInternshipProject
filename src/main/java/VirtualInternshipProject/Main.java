@@ -1,14 +1,17 @@
 package VirtualInternshipProject;
 
 
+import VirtualInternshipProject.Services.ManipulationsWithCityList;
+
 public class Main {
 
     public static void main(String[] args) {
-        ManipulationsWithCityList.ReadString("src/main/resources/  CityDirectory.txt");
-        ManipulationsWithCityList.SortListByNames();
-        ManipulationsWithCityList.SortListByNamesAndDist();
-        ManipulationsWithCityList.GetIndexOfCityWithBiggestPopulation();
-        ManipulationsWithCityList.CountCitiseInEachRegeion();
+        ManipulationsWithCityList mp = new ManipulationsWithCityList();
+        mp.ReadString("src/main/resources/CityDirectory.txt");
+        mp.SortListByNames();
+        mp.SortListByNamesAndDist();
+        mp.GetIndexOfCityWithBiggestPopulation();
+        mp.CountCitiesInEachRegion();
     }
 
 
